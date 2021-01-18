@@ -1,0 +1,126 @@
+@font-face {
+	font-family: 'Bebas-Regular';
+	src: url('../fonts/Bebas-Regular.otf');
+}
+
+html, body {
+	height: 100%;
+	min-height: 100%;
+}
+
+form {
+	text-align: center;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #54a4f7;
+}
+
+.wrapper {
+	background-color: #e4e4e4;
+	background-size: 100%;
+	width: 100%;
+	height: 100%;
+	min-width: 950px;
+
+}
+
+.login_box {
+	font-family: 'Bebas-Regular', sans-serif;
+    position: relative;
+    margin-right: 100px;
+    margin-left: auto;
+    top: 21%;
+    width: 35%;
+    background-color: #ffffff;
+    border: 1px solid #EDEDED;
+    border-radius: 7px;
+    padding: 5px;
+    opacity: 0.98;
+}
+
+.login_header {
+	font-family: 'Bebas-Regular', sans-serif;
+    width: 100%;
+    height: 90px;
+    border: 1px solid #666666;
+    background-color: #CE412B;
+    color: #fff;
+    text-align: center;
+    text-shadow: #000000 1.5px 1.5px 0px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.login_header h1 {
+	font-family: 'Bebas-Regular', sans-serif;
+    margin-top: 0;
+    margin-bottom: 0px;
+    color: #ffffff;
+    text-shadow: #000000 1.5px 1.5px 0px;
+    font-size: 313%;
+}
+
+input[type="submit"] {
+	background-color: #ce432e;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    margin: 5px 0 10px 0;
+    padding: 5px 10px 5px 10px;
+    color: #ffffff;
+    text-shadow: #000000 1.5px 1.5px 0px;
+    font-family: 'Bebas-Regular', sans-serif;
+    font-size: 100%;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+	border: 1px solid #e5e5e5;
+	margin-top: 5px;
+	width: 70%;
+	height: 35px;
+	margin-bottom: 10px;
+	padding-left: 5px;
+}
+
+input[type="text"]:hover, input[type="email"]:hover, input[type="password"]:hover {
+	border-color: #3498db;
+}
+
+#second {
+	display: none;
+}
+
+.introtext {
+    color: #000;
+    position: fixed;
+    font-size: 66px;
+    left: 156px;
+    top: 313px;
+}
+
+.logoregpage {
+    position: fixed;
+    top: 150px;
+    left: 270px;
+}
+
+.copyright p {
+    text-align: center;
+}
+
+.icon {
+  padding: 9px;
+  background-color: #CE412B;
+  color: white;
+  min-width: 42px;
+  text-align: center;
+  border: 1px solid #666666;
+}
